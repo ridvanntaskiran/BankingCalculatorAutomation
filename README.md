@@ -1,4 +1,4 @@
-Ziraat Bankası Hesaplama Araçları Test Otomasyonu
+# **Ziraat Bankası Hesaplama Araçları Test Otomasyonu**
 Bu proje, Ziraat Bankası'nın https://www.ziraatbank.com.tr/tr/hesaplama-araclari sayfasında yer alan kredi hesaplama araçlarından herhangi birinin, mevduat getirisi hesaplama aracının ve IBAN hesaplama aracının test otomasyon senaryolarını içerir. Test otomasyon senaryoları Selenium ve Java kullanılarak yazılmıştır.
 
 Gereksinimler
@@ -13,10 +13,11 @@ WebDriverManager
 Proje Yapısı
 css
 Copy code
-.
-├── pom.xml
-├── README.md
-└── src
+
+
+## **Proje Yapısı**
+├── src
+
     ├── main
     │   ├── java
     │   │   ├── org
@@ -38,9 +39,12 @@ Copy code
         │       ├── DepositLoanCalculatorTest.java
         │       ├── IBANCalculatorTest.java
         │       └── LoanCalculatorTest.java
+├── pom.xml
+
+├── README.md
 
 
-1. Kredi Hesaplama Aracı Testi
+## __1. Kredi Hesaplama Aracı Testi__
 Bu test senaryosu, kredi hesaplama aracının çalışmasını doğrular.
 
 Test adımları:
@@ -49,7 +53,7 @@ https://www.ziraatbank.com.tr/tr/hesaplama-araclari sayfasına gidin.
 - Gerekli alanları doldurun ve hesaplama yapın.
 - Sonuçları doğrulayın.
 
-2. Mevduat Getirisi Hesaplama Aracı Testi
+## __2. Mevduat Getirisi Hesaplama Aracı Testi__
 Bu test senaryosu, mevduat getirisi hesaplama aracının çalışmasını doğrular.
 
 Test adımları:
@@ -58,7 +62,7 @@ Test adımları:
 - Gerekli alanları doldurun ve hesaplama yapın.
 - Sonuçları doğrulayın.
 
-3. IBAN Hesaplama Aracı Testi
+## __3. IBAN Hesaplama Aracı Testi__
 Bu test senaryosu, IBAN hesaplama aracının çalışmasını doğrular.
 
 Test adımları:
